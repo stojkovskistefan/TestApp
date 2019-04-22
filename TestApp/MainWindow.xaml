@@ -1,0 +1,30 @@
+﻿<Window x:Class="TestApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid>
+        <DataGrid Name="DG" AutoGenerateColumns="False" VerticalAlignment="Top" Margin="0 55 0 0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding ClientID}" Header="ClientID" Width="100"/>
+                <DataGridTextColumn Binding="{Binding Name}" Header="Name" Width="100"/>
+                <DataGridTextColumn Binding="{Binding Email}" Header="Email" Width="100"/>
+                <DataGridTextColumn Binding="{Binding Address1}" Header="Address1" Width="100"/>
+                <DataGridTextColumn Binding="{Binding Address2}" Header="Address2" Width="100"/>
+                <DataGridTextColumn Binding="{Binding DOB}" Header="DOB" Width="100"/>
+                <DataGridTextColumn Binding="{Binding Username}" Header="Username" Width="100"/>
+                <DataGridTextColumn Binding="{Binding Password}" Header="Password" Width="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Orientation="Horizontal">
+        <Button x:Name="btnSubmit" Click="BtnShow_Click" Content="Load Data from database" FontSize="15" Height="54" VerticalAlignment="Top" HorizontalAlignment="Center" Width="200" Background="DarkGray"/>
+        <Button x:Name="btnOrderName" Click="BtnOrderName_Click" Content="Order by name" FontSize="15" Height="54" VerticalAlignment="Top" HorizontalAlignment="Center" Width="200" Background="DarkGray"/>
+        <Button x:Name="btnOrderDate" Click="BtnOrderDate_Click" Content="Order by DOB" FontSize="15" Height="54" VerticalAlignment="Top" HorizontalAlignment="Center" Width="200" Background="DarkGray"/>
+        <Button x:Name="btnUploadXML" Click="BtnUploadXML_Click" Content="Upload XML" FontSize="15" Height="54" VerticalAlignment="Top" HorizontalAlignment="Center" Width="200" Background="DarkGray"/>
+        </StackPanel>
+    </Grid>
+</Window>

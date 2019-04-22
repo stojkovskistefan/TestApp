@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Clients>
+  <Client ID="12345">
+    <Name>Ime1</Name>
+    <Email>stefko@gmail.com</Email>
+    <Address1>Home address</Address1>
+    <Address2>Weekend address</Address2>
+    <BirthDate>01.09.2001</BirthDate>
+    <Username>Petko1</Username>
+    <Password>svirko</Password>
+  </Client>
+  <Client ID="12346">
+    <Name>Ime1</Name>
+    <Email>stefko@gmail.com</Email>
+    <Address1>Home address</Address1>
+    <Address2>Weekend address</Address2>
+    <BirthDate>01.09.2001</BirthDate>
+    <Username>Petko2</Username>
+    <Password>svirko</Password>
+  </Client>
+  <Client ID="12347">
+    <Name>Ime1</Name>
+    <Email>stefko@gmail.com</Email>
+    <Address1>Home address</Address1>
+    <Address2>Weekend address</Address2>
+    <BirthDate>01.09.2001</BirthDate>
+    <Username>Petko3</Username>
+    <Password>svirko</Password>
+  </Client>
+  <Client ID="12385">
+    <Name>Ime1</Name>
+    <Email>stefko@gmail.com</Email>
+    <Address1>Home address</Address1>
+    <Address2>Weekend address</Address2>
+    <BirthDate>01.09.2001</BirthDate>
+    <Username>Petko4</Username>
+    <Password>svirko</Password>
+  </Client>
+</Clients>
